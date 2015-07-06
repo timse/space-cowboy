@@ -1,0 +1,25 @@
+{
+  "name": "space-cowboy",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "./node_modules/webpack/bin/webpack.js --config webpack.config.js --progress --profile --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timse/space-cowboy.git"
+  },
+  "author": "timse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timse/space-cowboy/issues"
+  },
+  "homepage": "https://github.com/timse/space-cowboy",
+  "devDependencies": {
+    "babel-core": "^5.6.15",
+    "babel-loader": "^5.3.1",
+    "node-libs-browser": "^0.5.2",
+    "webpack": "^1.10.1"
+  }
+}
